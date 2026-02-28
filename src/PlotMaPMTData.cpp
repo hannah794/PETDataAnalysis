@@ -70,7 +70,7 @@ int main()
         selectOption = true;
         while (selectOption)
         {
-            std::cout << "Select analysis option for run " << std::to_string(runNo) << " (1/2/3)" << std::endl;
+            std::cout << "Select analysis option for run " << std::to_string(runNo) << " (-1/0/1/2/3/4/5/6)" << std::endl;
             std::cout << "1. 1D histogram of the number of hits in MaPMT for the selected side of the setup" << std::endl;
             std::cout << "2. 1D histograms of ADC counts for each anode separately for the selected side of the setup" << std::endl;
             std::cout << "3. 2D histogram of the mean ADC counts in anodes in the run for the selected side of the setup" << std::endl;
